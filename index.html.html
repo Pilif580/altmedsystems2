@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="AltMed Systems helps alternative medicine practices grow by automating lead generation, patient onboarding, and retention with smart AI systems.">
+    <title>AltMed Systems - Transform Your Holistic Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #f0fff4 0%, #e6fffa 50%, #ebf8ff 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: scale(1.02);
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #4fd1c5;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover:after {
+            width: 100%;
+        }
+        .stat-card {
+            transition: all 0.3s ease;
+        }
+        .stat-card:hover {
+            background-color: #ffffff;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                    <img src="logo.png" alt="" class="h-12 w-auto">
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#problems" class="nav-link px-3 py-2 text-sm font-medium text-gray-900 hover:text-teal-600">Problems Solved</a>                  
+                    <a href="#features" class="nav-link px-3 py-2 text-sm font-medium text-gray-900 hover:text-teal-600">Features</a>
+                    <a href="https://calendly.com/filip-altmedsystems/30min" class="ml-8 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 transition duration-150 ease-in-out">
+                        Free Strategy Session
+                    </a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#features" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-teal-600 hover:bg-gray-50">Features</a>
+                <a href="#problems" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-teal-600 hover:bg-gray-50">Problems Solved</a>
+                <a href="#results" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-teal-600 hover:bg-gray-50">Results</a>
+                <a href="https://calendly.com/filip-altmedsystems/30min" class="block w-full px-5 py-3 text-center font-medium text-teal-600 bg-gray-50 hover:bg-gray-100 rounded-md">
+                    Free Strategy Session
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+                <div class="mb-12 lg:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+                        Stop Losing Patients to <span class="text-teal-600">Administrative Chaos</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Transform your alternative medicine practice with a system that handles everything from lead generation to patient retention — so you can focus on healing people.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="https://calendly.com/filip-altmedsystems/30min" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 transition duration-150 ease-in-out">
+                            Book Free Strategy Call
+                        </a>
+                        <a href="#features" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-teal-700 bg-teal-100 hover:bg-teal-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 transition duration-150 ease-in-out">
+                            How It Works
+                        </a>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-500">
+                        <i class="fas fa-check-circle text-teal-500 mr-1"></i> No sales pitch • Just pure value
+                    </p>
+                </div>
+                <div class="relative">
+                    <div class="bg-white p-6 rounded-xl shadow-xl">
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="stat-card bg-teal-50 p-4 rounded-lg text-center">
+                                <p class="text-3xl font-bold text-teal-600">Increased</p>
+                                <p class="text-sm text-gray-600">Patient retention</p>
+                            </div>
+                            <div class="stat-card bg-blue-50 p-4 rounded-lg text-center">
+                                <p class="text-3xl font-bold text-blue-600">15hrs</p>
+                                <p class="text-sm text-gray-600">Saved weekly</p>
+                            </div>
+                            <div class="stat-card bg-indigo-50 p-4 rounded-lg text-center">
+                                <p class="text-3xl font-bold text-indigo-600">24/7</p>
+                                <p class="text-sm text-gray-600">Patient support</p>
+                            </div>
+                            <div class="stat-card bg-purple-50 p-4 rounded-lg text-center">
+                                <p class="text-3xl font-bold text-purple-600">Reduced</p>
+                                <p class="text-sm text-gray-600">No-shows</p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="text-sm text-gray-600 mb-2">"My AI handles 90% of admin tasks automatically. I have my evenings back and energy for what matters."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Problems Section -->
+    <section id="problems" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Why Most Holistic Practices Plateau</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Even the most gifted healers get stuck when these critical issues drain their energy and derail their growth.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg feature-card transition duration-300">
+                    <div class="bg-emerald-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-tools text-emerald-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Scattered Systems + Tools</h3>
+                    <p class="text-gray-600 mb-4">Juggling 5+ different apps for scheduling, payments, notes, follow-ups, and marketing.</p>
+                    <div class="bg-gray-100 p-4 rounded-lg italic">
+                        <p>"I spend more time switching between apps than actually seeing patients."</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg feature-card transition duration-300">
+                    <div class="bg-emerald-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-calendar-times text-emerald-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">No-Show Leads + Admin Overload</h3>
+                    <p class="text-gray-600 mb-4">Chasing prospects who never book, managing cancellations, and drowning in paperwork.</p>
+                    <div class="bg-gray-100 p-4 rounded-lg italic">
+                        <p>"I work 60+ hours a week but only 20 hours are actual healing."</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg feature-card transition duration-300">
+                    <div class="bg-emerald-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-user-clock text-emerald-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Patients Falling Off After 2 Weeks</h3>
+                    <p class="text-gray-600 mb-4">No consistent follow-up system means patients lose motivation and disappear mid-treatment.</p>
+                    <div class="bg-gray-100 p-4 rounded-lg italic">
+                        <p>"They're excited at first, then I never hear from them again."</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 bg-emerald-50 p-8 rounded-lg text-center">
+                <h3 class="text-2xl font-bold mb-4">Sound Familiar? You're Not Alone.</h3>
+                <p class="text-lg text-gray-700 max-w-3xl mx-auto">These aren't personal failures—they're system failures. The good news? We can fix all these problems automatically, so you can get back to what you love: transforming lives through healing.</p>
+            </div>
+        </div>
+    </section>
+<section class="bg-white py-20 px-6">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-teal-600 mb-10">Before vs After</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+      <!-- Before -->
+      <div class="bg-white rounded-xl shadow-lg p-8 border-l-4 border-red-500">
+        <h3 class="text-2xl font-semibold text-red-600 mb-4">🚨 Before</h3>
+        <ul class="space-y-4 text-gray-700 text-lg">
+          <li>❌ Every month feels like starting from scratch</li>
+          <li>❌ Patients come in unqualified or unsure</li>
+          <li>❌ Struggling to explain your value clearly online</li>
+          <li>❌ Practice feels like a hustle, not a calling</li>
+          <li>❌ No time or energy to plan for long-term growth</li>
+        </ul>
+      </div>
+
+      <!-- After -->
+      <div class="bg-white rounded-xl shadow-lg p-8 border-l-4 border-green-600">
+        <h3 class="text-2xl font-semibold text-green-600 mb-4">🌿 After</h3>
+        <ul class="space-y-4 text-gray-700 text-lg">
+          <li>✅ A steady stream of aligned, pre-sold patients</li>
+          <li>✅ Clear messaging that reflects your philosophy</li>
+          <li>✅ A brand and website that build trust instantly</li>
+          <li>✅ Confidence in your systems and your future</li>
+          <li>✅ The freedom to grow, delegate, and lead</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-green-50 py-20 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-700 mb-12">Here’s What You Deserve</h2>
+
+
+ <div class="space-y-6 text-left">
+      <div class="bg-white border-l-4 border-green-400 rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-101">
+        <h3 class="text-lg font-semibold mb-2">🌟 More Time for Healing</h3>
+        <p class="text-gray-700">Spend less time buried in admin and more time doing what you love — helping patients heal holistically.</p>
+      </div>
+
+      <div class="bg-white border-l-4 border-green-400 rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-101">
+        <h3 class="text-lg font-semibold mb-2">📈 A Predictable Stream of Ideal Patients</h3>
+        <p class="text-gray-700">We build lead gen systems that consistently bring in patients aligned with your philosophy, without you having to chase them.</p>
+      </div>
+
+      <div class="bg-white border-l-4 border-green-400 rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-101">
+        <h3 class="text-lg font-semibold mb-2">🧘‍♂️ Less Burnout, More Balance</h3>
+        <p class="text-gray-700">No more juggling tech tools or marketing alone. You get a calm, streamlined workflow powered by smart automations.</p>
+      </div>
+
+      <div class="bg-white border-l-4 border-green-400 rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-101">
+        <h3 class="text-lg font-semibold mb-2">💰 Increased Revenue with Less Effort</h3>
+        <p class="text-gray-700">With retention systems and automated upsells, you'll grow your income without growing your hours.</p>
+      </div>
+
+      <div class="bg-white border-l-4 border-green-400 rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-101">
+        <h3 class="text-lg font-semibold mb-2">🤝 Deeper Patient Relationships</h3>
+        <p class="text-gray-700">With consistent follow-ups and personalized flows, patients feel cared for — and keep coming back.</p>
+      </div>
+
+      <div class="bg-white border-l-4 border-green-400 rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-101">
+        <h3 class="text-lg font-semibold mb-2">📊 A Business That Runs Without You</h3>
+        <p class="text-gray-700">Your practice becomes a system — not a scattered hustle — so you can finally step back without things falling apart.</p>
+      </div>
+    </div>
+
+    <p class="mt-12 text-lg text-teal-700 font-semibold">Don’t worry, we can help.</p>
+  </div>
+</section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Transform Your Practice, Transform Your Life</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Stop struggling with the business side of healing. Here's what changes when you let AI handle the overwhelm.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-emerald-100 w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-users text-emerald-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">More Ideal Patients</h3>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded-lg mb-4 italic">
+                        <p>"I'm seeing anyone who walks through the door, but half aren't a good fit for my practice."</p>
+                    </div>
+                    <div class="bg-emerald-50 p-4 rounded-lg">
+                        <p>"My system attracts patients who truly value holistic care and are excited to invest in their healing journey."</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-emerald-100 w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-clock text-emerald-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Less Admin</h3>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded-lg mb-4 italic">
+                        <p>"I spend 3+ hours daily on scheduling, follow-ups, and paperwork instead of healing people."</p>
+                    </div>
+                    <div class="bg-emerald-50 p-4 rounded-lg">
+                        <p>“My inbox doesn’t rule my life anymore. Everything just… works in the background.”
+</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-emerald-100 w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-chart-line text-emerald-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Higher Retention</h3>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded-lg mb-4 italic">
+                        <p>"Patients disappear after a few sessions. I'm constantly starting over with new people."</p>
+                    </div>
+                    <div class="bg-emerald-50 p-4 rounded-lg">
+                        <p>“Now my patients actually finish what they start — and get better results because of it.”
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gradient-to-br from-emerald-50 to-emerald-400">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">The AltMed Systems Growth Engine™</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Our proven system transforms scattered chaos into streamlined growth—automatically attracting, converting, and retaining your ideal patients.</p>
+            </div>
+            
+            <div class="flex justify-center mb-12">
+                <div class="relative">
+                    <div class="flex items-center">
+                        <div class="text-center px-6">
+                            <div class="bg-emerald-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <p class="font-medium">Attract</p>
+                        </div>
+                        <div class="w-16 h-1 bg-emerald-300"></div>
+                        <div class="text-center px-6">
+                            <div class="bg-emerald-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <p class="font-medium">Convert</p>
+                        </div>
+                        <div class="w-16 h-1 bg-emerald-300"></div>
+                        <div class="text-center px-6">
+                            <div class="bg-emerald-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <i class="fas fa-redo"></i>
+                            </div>
+                            <p class="font-medium">Retain</p>
+                        </div>
+                        <div class="w-16 h-1 bg-emerald-300"></div>
+                        <div class="text-center px-6">
+                            <div class="bg-emerald-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <i class="fas fa-sync"></i>
+                            </div>
+                            <p class="font-medium">Repeat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto text-center">
+                <h3 class="text-2xl font-bold mb-4">The Result: Predictable Practice Growth</h3>
+                <p class="text-lg text-gray-700">Instead of feast-or-famine cycles, you'll have consistent patient flow, higher retention rates, and more time to focus on what you love—helping people heal.</p>
+            </div>
+        </div>
+    </section>
+<!-- 7-Step AltMed Systems -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800">Our 7-Step System</h2>
+      <p class="text-lg text-gray-600 mt-3">Each step stacks seamlessly — so your practice grows smoothly, sustainably, and automatically.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-800 text-base">
+      <!-- Step 1 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <div class="flex items-start gap-4 mb-3">
+          <div class="text-emerald-600 text-2xl">🎯</div>
+          <h3 class="text-xl font-semibold">Step 1: Craft a Magnetic Offer</h3>
+        </div>
+        <p>We help you clarify and package your services into a high- or low-ticket offer that speaks directly to your ideal patient.</p>
+        <p class="text-emerald-600 mt-2 italic">→ Because everything breaks if your offer isn’t compelling.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <div class="flex items-start gap-4 mb-3">
+          <div class="text-emerald-600 text-2xl">🌐</div>
+          <h3 class="text-xl font-semibold">Step 2: Build a Website That Sells for You</h3>
+        </div>
+        <p>We script and design a high-converting VSL (video sales letter) and website around your offer — so potential patients instantly see your value and book in.</p>
+        <p class="text-emerald-600 mt-2 italic">→ No more explaining yourself over and over.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <div class="flex items-start gap-4 mb-3">
+          <div class="text-emerald-600 text-2xl">🚀</div>
+          <h3 class="text-xl font-semibold">Step 3: Launch Your Lead Generation Engine</h3>
+        </div>
+        <p>With your offer and website in place, we deploy proven organic + paid strategies to bring in qualified leads — daily.</p>
+        <p class="text-emerald-600 mt-2 italic">→ Leads don’t matter without a foundation. Now you have both.</p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <div class="flex items-start gap-4 mb-3">
+          <div class="text-emerald-600 text-2xl">📱</div>
+          <h3 class="text-xl font-semibold">Step 4: Social Media Content & Paid Ads</h3>
+        </div>
+        <p>We script and edit your content, and run targeted ads that build trust, educate your audience, and drive conversions.</p>
+        <p class="text-emerald-600 mt-2 italic">→ Your brand becomes known before they ever speak to you.</p>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <div class="flex items-start gap-4 mb-3">
+          <div class="text-emerald-600 text-2xl">🤖</div>
+          <h3 class="text-xl font-semibold">Step 5: Install AI-Powered Automations</h3>
+        </div>
+        <p>We automate the entire backend: DMs, follow-ups, reminders, lead nurturing, chatbots, reactivations, and more — using clean AI systems.</p>
+        <p class="text-emerald-600 mt-2 italic">→ No more no-shows, ghosting, or wasted leads.</p>
+      </div>
+
+      <!-- Step 6 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <div class="flex items-start gap-4 mb-3">
+          <div class="text-emerald-600 text-2xl">🗂️</div>
+          <h3 class="text-xl font-semibold">Step 6: Streamline Client Onboarding</h3>
+        </div>
+        <p>We build a simple, repeatable onboarding system so every patient feels supported — and you don’t get buried in admin.</p>
+        <p class="text-emerald-600 mt-2 italic">→ Start delivering results faster, with less chaos.</p>
+      </div>
+
+      <!-- Step 7 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition md:col-span-2 text-center">
+        <div class="flex flex-col items-center gap-3 mb-3">
+          <div class="text-emerald-600 text-2xl">🔁</div>
+          <h3 class="text-xl font-semibold">Step 7: Retain & Reactivate Patients Automatically</h3>
+        </div>
+        <p>We implement smart systems to keep patients coming back and bring inactive ones back to life — increasing LTV without extra effort.</p>
+        <p class="text-emerald-600 mt-2 italic">→ Growth isn’t just about leads. It’s about keeping them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Guarantee Section -->
+    <section class="py-16 bg-emerald-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-8">Zero-Risk, Results-First Approach</h2>
+            <p class="text-xl mb-12 max-w-3xl mx-auto">We’ve removed the pressure, risk, and guesswork from growing your practice. With our performance-first model, you don’t pay anything upfront — and you only invest once real, qualified leads start coming in. It’s growth with confidence, not contracts</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white bg-opacity-20 p-6 rounded-lg backdrop-blur-sm">
+                    <i class="fas fa-shield-alt text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Risk-Free Start</h3>
+                    <p>No upfront costs or commitments</p>
+                </div>
+                <div class="bg-white bg-opacity-20 p-6 rounded-lg backdrop-blur-sm">
+                    <i class="fas fa-check-circle text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Pay Only on Results</h3>
+                    <p>Only pay when you see real leads</p>
+                </div>
+                <div class="bg-white bg-opacity-20 p-6 rounded-lg backdrop-blur-sm">
+                    <i class="fas fa-bullseye text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Lead-First Approach</h3>
+                    <p>We focus on quality over quantity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- CTA Section -->
+<section id="cta" class="py-20 bg-white text-gray-900">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold mb-6">Ready to experience this transformation in your own practice?</h2>
+    <p class="text-xl mb-8">✨ Your ideal practice is just one conversation away ✨</p>
+    <a href="https://calendly.com/filip-altmedsystems/30min" class="bg-emerald-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-emerald-700 transition inline-block">
+      Book a Free Strategy Session
+    </a>
+    <p class="mt-4 text-emerald-700">Get a custom plan tailored to your practice</p>
+  </div>
+</section>
+    <!-- Footer -->
+<footer class="bg-gray-100 text-gray-800 py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="text-lg font-semibold mb-4">AltMed Systems</h3>
+        <p class="text-gray-600 text-sm">
+          Transform your alternative medicine practice with AI-powered systems that handle everything from lead generation to patient retention.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+        <ul class="space-y-2">
+          <li><a href="#features" class="text-gray-600 hover:text-emerald-600 transition">Features</a></li>
+          <li><a href="#problems" class="text-gray-600 hover:text-emerald-600 transition">Problems Solved</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Contact</h3>
+        <ul class="space-y-2 text-gray-600">
+          <li class="flex items-start">
+            <i class="fas fa-envelope mt-1 mr-2"></i>
+            <span>filip@altmedsystems.com</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+        <div class="flex space-x-4">
+          <a href="https://www.instagram.com/altmedsystems/" class="text-gray-600 hover:text-emerald-600 transition">
+            <i class="fab fa-instagram"></i>
+          </a>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
