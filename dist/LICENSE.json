@@ -1,0 +1,29 @@
+{
+  "productName": "n8nboy Chrome Extension",
+  "version": "1.6",
+  "author": "Ken Kai",
+  "email": "ken@kenkais.com",
+  "website": "https://kenkais.com",
+  "copyright": "Copyright (c) 2025 Ken Kai. All rights reserved.",
+  "licenseType": "Commercial",
+  "licenseKey": "N8N-4844C8E5-FD803885-DF016D99",
+  "activationCode": "23FD261A24E43612D5AA39081756E96E",
+  "issuedDate": "2025-06-04T11:13:56.313Z",
+  "restrictions": [
+    "Unauthorized copying, distribution, or modification is strictly prohibited",
+    "Reverse engineering or decompilation is forbidden",
+    "Commercial use requires explicit written permission",
+    "This software is provided \"as is\" without warranty of any kind"
+  ],
+  "legalNotice": "This software is protected by copyright law and international treaties. \nUnauthorized reproduction or distribution of this program, or any portion \nof it, may result in severe civil and criminal penalties, and will be \nprosecuted to the maximum extent possible under the law.\n\nBy using this software, you agree to be bound by the terms of this license.\nIf you do not agree to these terms, you must immediately cease using the \nsoftware and destroy all copies in your possession.\n\nFor licensing inquiries, contact: ken@kenkais.com\nWebsite: https://kenkais.com",
+  "contactInfo": {
+    "email": "ken@kenkais.com",
+    "website": "https://kenkais.com",
+    "support": "ken@kenkais.com",
+    "business": "Ken Kai"
+  },
+  "technicalInfo": {
+    "buildId": "bef0365e41847b04",
+    "checksum": "59e099c3eff32e22da24f9522eb1ca034bdded46a320e186e740a00eae335946"
+  }
+}

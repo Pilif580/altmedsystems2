@@ -1,0 +1,53 @@
+DIGITAL MILLENNIUM COPYRIGHT ACT (DMCA) NOTICE
+
+Product: n8nboy Chrome Extension
+Copyright Owner: Ken Kai
+Website: https://kenkais.com
+Email: ken@kenkais.com
+Date: 04/06/2025
+
+NOTICE OF COPYRIGHT INFRINGEMENT
+
+This software is protected by copyright law and international treaties. 
+Any unauthorized copying, distribution, modification, or reverse engineering 
+of this software constitutes copyright infringement and may subject the 
+infringer to civil and criminal penalties.
+
+PROTECTED ELEMENTS:
+- Source code and algorithms
+- User interface design and layout
+- Documentation and help content
+- Icons, graphics, and visual elements
+- Configuration files and data structures
+
+PROHIBITED ACTIVITIES:
+- Copying or redistributing the software
+- Reverse engineering or decompiling
+- Creating derivative works
+- Removing copyright notices
+- Commercial use without permission
+
+ENFORCEMENT:
+Violations will be reported to:
+- Chrome Web Store for extension removal
+- GitHub for repository takedown
+- Internet service providers for hosting removal
+- Legal authorities for criminal prosecution
+
+If you believe your use of this software is authorized, please contact
+the copyright owner immediately with proof of license or permission.
+
+CONTACT INFORMATION:
+Email: ken@kenkais.com
+Website: https://kenkais.com
+License Key Required: N8N-4844C8E5-FD803885-DF016D99
+
+TAKEDOWN REQUESTS:
+For copyright infringement reports, please email ken@kenkais.com with:
+- Description of copyrighted work
+- Location of infringing material
+- Your contact information
+- Good faith statement of unauthorized use
+
+This notice serves as formal notification under the DMCA and applicable 
+international copyright laws.
